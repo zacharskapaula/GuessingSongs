@@ -37,7 +37,7 @@
             <StackLayout Orientation="Vertical">
 
 
-                <Button BackgroundColor="#4437a1" Text="Choose a category" Clicked="Button_Clicked"></Button>
+                <Button BackgroundColor="#4437a1" Text="Piątek Piąteczek Piątunio" Clicked="Button_Clicked"></Button>
 
 
             </StackLayout>
