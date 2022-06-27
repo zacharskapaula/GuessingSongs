@@ -11,35 +11,33 @@
 
     <ContentPage.Resources>
         <ResourceDictionary>
-            <Color x:Key="Accent">#b08cc0</Color>
+            <Color x:Key="Accent">#4437a1</Color>
         </ResourceDictionary>
     </ContentPage.Resources>
-
+    
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
             
         </Grid.RowDefinitions>
-        <StackLayout BackgroundColor="#f8f8f8" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
-            <Image 
-                       Source="napis.png"
-                       WidthRequest="400"
-                       HeightRequest="200"/>
+        <StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+           
         </StackLayout>
         <ScrollView Grid.Row="0">
             <StackLayout Orientation="Vertical">
-                
+                <Image Source="on.png"></Image>
+                <Image Source="cat.png"></Image>
 
-
+ 
             </StackLayout>
         
         </ScrollView>
 
         <ScrollView Grid.Row="1">
             <StackLayout Orientation="Vertical">
-                
 
-                <Button Text="Choose a category" Clicked="Button_Clicked"></Button>
+
+                <Button BackgroundColor="#4437a1" Text="Choose a category" Clicked="Button_Clicked"></Button>
 
 
             </StackLayout>

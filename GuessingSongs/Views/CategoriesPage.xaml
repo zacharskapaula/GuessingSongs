@@ -32,14 +32,14 @@
             <ScrollView Grid.Row="1" Grid.Column="0">
                 <StackLayout Orientation="Vertical">
                     <Image Source="rap.png" HeightRequest="120"></Image>
-                    <Button x:Name="rapCategory" Text="RAP" BackgroundColor="#94b175"></Button>
+                    <Button x:Name="rapCategory" Text="RAP" BackgroundColor="#4437a1"></Button>
                 </StackLayout>
             </ScrollView>
             
             <ScrollView Grid.Row="1" Grid.Column="1">
                 <StackLayout Orientation="Vertical">
                     <Image Source="metal.png" HeightRequest="120"></Image>
-                    <Button x:Name="metalCategory" Text="METAL" BackgroundColor="#94b175"></Button>
+                    <Button x:Name="metalCategory" Text="METAL" BackgroundColor="#4437a1"></Button>
                 </StackLayout>
             </ScrollView>
 
