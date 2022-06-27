@@ -10,6 +10,12 @@ namespace GuessingSongs.Views
         public AboutPage()
         {
             InitializeComponent();
+            //var image = new Image { Source = "LOGO.jpg" };
+        }
+
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CategoriesPage());
         }
     }
 }
